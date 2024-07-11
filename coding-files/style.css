@@ -3,6 +3,90 @@
     padding: 0;
     box-sizing: border-box;
 }
-html {
-    background-color: black;
+#sidebar-background {
+    position: absolute;
+    width: 35vw;
+    height: 100vh;
 }
+#container {
+    position: absolute;
+    top: 30%;
+    opacity: 40%;
+    background-color: black;
+    z-index: 1;
+    width: 35vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#odin-logo-img {
+    width: 15vw;
+    height: 25vh;
+}
+#title {
+    z-index: 1;
+    font-size: 5em;
+    color: white;
+
+}
+#form-space {
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+    width: 65vw;
+    height: 45vh;
+    box-shadow: grey 0px 5px 10px;
+    position: relative;
+    left: 35%;
+    top: 25vh;
+}
+#form-title {
+ font-size: 2rem;
+ font-family: Arial, Helvetica, sans-serif;
+}
+#input-container-1, #input-container-2 {
+    position: relative;
+    bottom: 5vh;
+    margin-left: 5vw;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 5vh;
+}
+#create-container {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 40%;
+    margin-top: 17%;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+#log-in 
+{
+    color: #596D48;
+    font-weight: 600;
+
+}
+button {
+    background-color: #596D48;
+    color: white;
+    height: 5vh;
+    width: 12vw;
+    border-radius: 6px;
+    border: none;
+}
+input {
+    display: block;
+    margin-bottom: 3vh;
+}
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+
+
